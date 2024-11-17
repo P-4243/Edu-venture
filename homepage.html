@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearFlex Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #45a049;
+        }
+        #hero {
+            text-align: center;
+            padding: 4rem;
+            background-color: #e8f5e9;
+        }
+        #hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        #hero button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        #hero button:hover {
+            background-color: #45a049;
+        }
+        #features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+        }
+        .feature {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .feature h2 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+        #call-to-action {
+            text-align: center;
+            padding: 2rem;
+            background-color: #4CAF50;
+            color: white;
+        }
+        #call-to-action h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        #call-to-action button {
+            background-color: white;
+            color: #4CAF50;
+            border: 2px solid white;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        #call-to-action button:hover {
+            background-color: #e8f5e9;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#learning-profiles">Learning Profiles</a></li>
+                <li><a href="#custom-paths">Custom Learning Paths</a></li>
+                <li><a href="#resource-library">Resource Library</a></li>
+                <li><a href="#self-paced-tools">Self-Paced Tools</a></li>
+                <li><a href="#collaborative-spaces">Collaborative Spaces</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to LearFlex</h1>
+            <p>Experience personalized learning like never before.</p>
+            <button>Get Started</button>
+        </section>
+
+        <section id="features">
+            <div class="feature" id="learning-profiles">
+                <h2>Learning Style Profiles</h2>
+                <p>Identify your preferred learning methods and choose the best educational activities for your growth.</p>
+            </div>
+            <div class="feature" id="custom-paths">
+                <h2>Customizable Learning Paths</h2>
+                <p>Create custom courses from various modules tailored to your learning style.</p>
+            </div>
+            <div class="feature" id="resource-library">
+                <h2>Resource Library</h2>
+                <p>Access a comprehensive library of articles, videos, worksheets, and interactive activities.</p>
+            </div>
+            <div class="feature" id="self-paced-tools">
+                <h2>Self-Paced Learning Tools</h2>
+                <p>Set your own schedules, track progress, and manage your learning pace efficiently.</p>
+            </div>
+            <div class="feature" id="collaborative-spaces">
+                <h2>Collaborative Learning Spaces</h2>
+                <p>Engage with peers through group projects and study rooms for shared learning experiences.</p>
+            </div>
+        </section>
+
+        <section id="call-to-action">
+            <h2>Join Today</h2>
+            <p>Start your personalized learning journey with LearFlex.</p>
+            <button>Sign Up</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LearFlex. All rights reserved.</p>
+    </footer>
+</body>
+</html>
